@@ -1,0 +1,561 @@
+@import url('https://fonts.googleapis.com/css2?family=Elsie+Swash+Caps:wght@400;900&display=swap');
+
+
+
+.Header-1 {
+  background-color: #0A163ED4;
+}
+
+.hero-banner {
+  height: 600px;
+  padding-right: 100px;
+  padding-left: 100px;
+  width: 100%;
+  border: 1px;
+  position: relative;
+  background-color: #000D1F;
+  line-height: 25px;
+  
+}
+
+.main {
+  width: 100%;
+  height: 500px;
+  display: flex;
+  justify-content: center;
+  /* align-items: center; */
+  flex-direction: column;
+  /* padding: 100px; */
+  z-index: 100 !important;
+  
+}
+
+.header {
+  background-color: #000d1f00;
+  width: 100%;
+  z-index: 1000;
+  position: sticky;
+  top: -80px;
+}
+
+.text {
+  color: #CBEFFF;
+  width: 650px;
+  height: 300px;
+  padding: auto;
+  text-decoration: none;
+}
+
+.header-main {
+  background-color: #0A163ED4;
+  display: flex;
+  justify-content: center;
+  height: 40px;
+  padding: 10px;
+  border-radius: 20px;
+  width: 550px;
+  margin: auto;
+  margin-top: 20px;
+}
+
+.bridalImage {
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 600px;
+  z-index: 1 !important
+}
+
+.containerofCouple {
+  display: flex;
+  width: 100%;
+  margin: auto;
+  background-image: url('../public/curtains.png');
+  background-position: right;
+  background-size: 50% 100%;
+  background-repeat: no-repeat;
+  height: 500px;
+  line-height: 20px;
+  padding: 50px 100px;
+}
+
+.curtains {
+  justify-content: center;
+  display: flex;
+  justify-content: space-between;
+  Width: 60%;
+  Height: 520px;
+  padding: 60px;
+}
+
+.highlight {
+  color: #D7A10F;
+}
+
+.text1 {
+
+  width: 650px;
+  height: 300px;
+  padding: auto;
+}
+
+.couple-pic {
+  width: 40%;
+  padding: 50px;
+  position: relative;
+}
+
+.couple-pic .image1 {
+  position: absolute;
+  top: 50px;
+  left: 100px;
+  z-index: 9;
+}
+
+.couple-pic .image2 {
+  position: absolute;
+  top: 200px;
+  left: 250px;
+  z-index: 8;
+}
+
+.serviceIcons {
+  padding: 0px 15px;
+  height: 70px;
+  width: 70px;
+}
+
+.ourServices {
+  line-height: normal;
+  padding: 30px 100px;
+  justify-items: center;
+  width: 100%;
+}
+
+.ourServices h3 {
+  font-size: 18px;
+  font-weight: normal;
+  line-height: 70px;
+}
+
+.services {
+  display: flex;
+  justify-content: space-between;
+  padding: 30px 60px;
+  width: 100%;
+  height: 180px;
+}
+
+.services1 {
+  display: flex;
+  justify-content: space-between;
+  padding: 5px;
+
+}
+
+.testimonials {
+  display: flex;
+  justify-items: center;
+  justify-content: space-between;
+  width: 100%;
+  height: 300px;
+  padding: 60px 160px;
+
+}
+
+.ourPortfolio {
+  justify-items: center;
+  width: 100%;
+  height: 700px;
+  padding: 40px 20px;
+}
+
+.portfolio {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  padding: 40px 100px;
+}
+
+.portfolioPics {
+  padding: 0px 15px;
+}
+
+.portfolioBtn {
+  background-color: #0e0e0e;
+  border-radius: 20px;
+  outline: none;
+  border: none;
+  color: #fff;
+  padding: 5px 20px 5px 20px;
+  white-space: nowrap;
+  font-size: 12px;
+}
+
+.headingdesign {
+  font-family: "Elsie Swash Caps", serif;
+  font-weight: 900;
+  font-style: normal;
+  font-size: 48px;
+  margin-bottom: -10px !important;
+}
+
+.btn {
+  background: url('../public/portfolioImageRainbow .png');
+
+}
+
+.snapShort {
+  justify-items: center;
+  padding: auto;
+  margin: 10px;
+  width: 100%;
+  line-height: 50px;
+}
+
+.snapImg {
+  height: 500px;
+}
+
+.tools {
+  justify-items: center;
+  width: 100%;
+  padding: 20px;
+}
+
+.toolsDiv {
+  display: flex;
+  width: 100%;
+  justify-items: center;
+  padding: 20px 50px;
+}
+
+.faqSection {
+  justify-items: center;
+  width: 100%;
+  padding: auto;
+}
+
+.faqs {}
+
+.blogSection {
+  justify-items: center;
+  padding: 50px;
+  width: 100%;
+}
+
+.blogPics {
+  display: flex;
+  justify-content: space-between;
+  padding: 50px;
+}
+
+.blogpic1 p {
+  color: #fff;
+  font-weight: bold;
+}
+
+.blogpic1 {
+  height: 200px;
+  width: 200px;
+  border-radius: 100px;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../public//blog1.jpg);
+  background-size: 100% 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
+}
+
+.blogpic2 p {
+  color: #fff;
+  font-weight: bold;
+}
+
+.blogpic2 {
+  height: 200px;
+  width: 200px;
+  border-radius: 100px;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../public//blog2.jpg);
+  background-size: 100% 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
+
+}
+
+.blogpic3 p {
+  color: #fff;
+  font-weight: bold;
+}
+
+.blogpic3 {
+  height: 200px;
+  width: 200px;
+  border-radius: 100px;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../public//blog3.jpg);
+  background-size: 100% 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
+
+}
+
+.blogpic4 p {
+  color: #fff;
+  font-weight: bold;
+}
+
+.blogpic4 {
+  height: 200px;
+  width: 200px;
+  border-radius: 100px;
+  background-image: linear-gradient(rgba(6, 30, 116, 0.8), rgba(6, 30, 116, 0.8)), url(../public//blog4.jpg);
+  background-size: 100% 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
+
+}
+
+.footerSection {
+  background-color: #001538;
+  display: flex;
+  justify-items: center;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: 400px;
+  padding: 40px;
+}
+
+.footerLogo {
+  padding: 10px 20px;
+
+
+}
+
+.chapterSection {
+  display: flex;
+  justify-content: space-between;
+  padding: 40px;
+}
+
+.yellowFooter {
+  background-color: #D7A10F;
+  justify-content: center;
+  justify-items: center;
+  width: 100%;
+  height: 50px;
+  padding: 8px;
+}
+
+.aboutBanner {
+  height: 500px;
+  z-index: -1 !important;
+  background-image: linear-gradient(rgba(9, 8, 9, 0.7), rgba(9, 15, 38, 0.5)), url("../public//aboutBanner.png");
+  background-size: 100% 100%;
+}
+
+.aboutMain {
+  height: 450px;
+  width: 100%;
+  line-height: 15px;
+  padding-left: 100px;
+  padding-top: 100px;
+}
+
+.aboutPhilosophy1 {
+  display: flex;
+  justify-content: space-between;
+  height: 300px;
+  width: 100%;
+  padding: 80px 150px;
+}
+
+.aboutPhilosophyText1 {
+  border: 1px solid rgb(170, 170, 170);
+  border-radius: 10px;
+  height: 120px;
+  line-height: 20px;
+  padding: 15px 15px;
+
+}
+
+.aboutPic {
+  background-image: linear-gradient(rgba(9, 8, 9, 0.7), rgba(9, 15, 38, 0.7)), url("../public//aboutPic2.png");
+  background-repeat: no-repeat;
+  justify-items: center;
+  color: white;
+  height: 160px;
+  width: 100%;
+  background-size: 100% 100%;
+  padding-top: 30px;
+}
+
+.aboutUsSection {
+  width: 100%;
+  justify-content: center;
+  justify-items: center;
+  align-items: center;
+
+}
+
+.aboutUS {
+  justify-content: left;
+  display: flex;
+  width: 100%;
+  border-bottom: 1px solid gold;
+  padding: 10px;
+
+}
+.circleaqua {
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  background-color: #00B36380;
+  margin:  10px 20px;
+}
+
+.circlePurple {
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  background-color: #4B006980;
+   margin:  10px 20px;
+}
+
+.circleLightPurple {
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  background-color: #84005880;
+   margin:  10px 20px;
+}
+
+.aboutVowsSection {
+  justify-content: center;
+  justify-items: center;
+  text-align: center;
+  background-color: #FFFCF5;
+  width: 100%;
+
+  padding: 10px;
+}
+
+
+
+.aboutVows {
+  display: flex;
+
+  justify-content: space-between;
+  gap: 30px;
+  width: 80%;
+  padding: 20px;
+
+}
+
+.aboutVows1 {
+  display: flex;
+  text-align: left;
+  border: rgb(230, 212, 212) solid 1px;
+  border-radius: 15px;
+
+  width: 100%;
+  padding: 10px;
+
+}
+
+.momentsSection {
+  justify-content: center;
+  justify-items: center;
+  text-align: center;
+  background-color: #FFFCF5;
+  width: 100%;
+  height: 386px;
+  padding: 10px;
+}
+
+.moments {
+  display: flex;
+
+  justify-content: space-between;
+  gap: 30px;
+  width: 80%;
+  margin: auto;
+  padding: 20px;
+
+}
+
+.moments1 {
+  display: flex;
+  text-align: left;
+  border: rgb(230, 212, 212) solid 1px;
+  border-radius: 15px;
+  height: 132px;
+  width: 50%;
+  padding: 10px;
+
+}
+
+.aboutLife {
+  text-align: center;
+  width: 100%;
+  margin: auto;
+  padding: 30px;
+}
+.aboutChat{
+  display: flex;
+  justify-content: center;
+  justify-items: center;
+  align-items: center;
+  gap:30px;
+  width: 100%;
+  padding: auto;
+  margin: auto;
+}
+.chatInput{
+  width: 40%;
+  line-height: normal;
+ 
+}
+.chatInput1{
+  width: 40%;
+ 
+}
+.blogsSection{
+  background-image: linear-gradient(rgba(9, 8, 9, 0.7), rgba(9, 15, 38, 0.7)), url("../public//BlogBanner.png");
+  justify-items: left;
+  padding: 2%;
+}
+.blogPlanning{
+  display: flex;
+  justify-content: center;
+  justify-items: center;
+  background-color: #FFFCF5;
+  gap: 100px;
+  width: 100%;
+  padding: 50px;
+  margin: auto;
+}
+.blogFinds{
+  display: flex;
+  justify-content: center;
+  justify-items: center;
+  width: 100%;
+  gap: 40px;
+  padding: 50px;
+  
+}
+.blogFinds1{
+ width: 50%;
+ padding: 5%;
+}
+.blogChips{
+  width: 50%;
+ 
+  
+}
